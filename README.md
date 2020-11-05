@@ -24,7 +24,7 @@ Necessário a  instalação da [API Python Sentinelsat](https://pypi.org/project
 
 
 ### Python Library
-Utiliza os pacotes de python  [Urllib](https://pypi.org/project/urllib3/),[json](https://pypi.org/project/jsonlib/),[threaded](https://pypi.org/project/threaded/),[csv](https://pypi.org/project/csvfile/),[requets](https://pypi.org/project/requests/),[time](https://pypi.org/project/times/),[path](https://pypi.org/project/times/).
+Utiliza os pacotes de python  [Urllib](https://pypi.org/project/urllib3/),[json](https://pypi.org/project/jsonlib/), [threaded](https://pypi.org/project/threaded/), [csv](https://pypi.org/project/csvfile/), [requets](https://pypi.org/project/requests/), [time](https://pypi.org/project/times/), [path](https://pypi.org/project/times/).
 
 
 ## Contributing
