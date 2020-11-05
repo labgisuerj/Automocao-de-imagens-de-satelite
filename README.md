@@ -19,12 +19,13 @@ O código possui os recursos listados abaixo.
 
 ## Requirements
 
-Referente aos códigos, necessita dos itens abaixo. 
+Referente aos códigos, necessita dos itens abaixo.
+
 Necessário a  instalação da [API Python Sentinelsat](https://pypi.org/project/sentinelsat/).
 
 
 ### Python Library
-Utiliza os pacotes de python  [Urllib](https://pypi.org/project/urllib3/),[json](https://pypi.org/project/jsonlib/), [threaded](https://pypi.org/project/threaded/), [csv](https://pypi.org/project/csvfile/), [requets](https://pypi.org/project/requests/), [time](https://pypi.org/project/times/), [path](https://pypi.org/project/times/).
+Utiliza os pacotes de python  [Urllib](https://pypi.org/project/urllib3/), [json](https://pypi.org/project/jsonlib/), [threaded](https://pypi.org/project/threaded/), [csv](https://pypi.org/project/csvfile/), [requets](https://pypi.org/project/requests/), [time](https://pypi.org/project/times/), [path](https://pypi.org/project/times/).
 
 
 ## Contributing
@@ -35,14 +36,14 @@ A equipe Labgis agradece a contribuição de qualquer pessoa, desde que seja par
 
 ## License
 
-## Usage
+## Usage e Documentation
+```
+O código pesquisa_lan.py realiza a pesquisa das imagens pelos parametros requeridos pela  doumentação da [USGS](https://m2m.cr.usgs.gov/api/docs/reference/#scene-search), por meio da inserção opcional de localização, data, porcentagem de nuvem dentre outras. Ademais, posteriormente após o fim da busca é agrupados todos os ids das imagens em um arquivo de texto, ao qual são utlizados para baixar as imagens no código download_landsat.py
 
-O código pesquisa_lan.py realiza a pesquisa das imagens pelos parametros requeridos pela [USGS](https://m2m.cr.usgs.gov/api/docs/reference/#scene-search), por meio da inserção opcional de localização, data, porcentagem de nuvem dentre outras. Ademais, posteriormente após o fim da busca é agrupados todos os ids das imagens em um arquivo de texto, ao qual são utlizados para baixar as imagens no código download_landsat.py
-
-O código pesquisa_sentinelsat.py busca as imagens pelos pelos parametros requeridos pela [ESA](https://sentinelsat.readthedocs.io/en/v0.9.1/api.html), através da inserção de localização, data, porcentagem de nuvem dentre outras.Ademais, posteriormente após o fim da busca é agrupados todos os ids das imagens em um arquivo de texto, ao qual são utlizados para baixar as imagens no código download_sentinelsat.py.
-
+O código pesquisa_sentinelsat.py busca as imagens pelos pelos parametros requeridos pela doumentação da [ESA](https://sentinelsat.readthedocs.io/en/v0.9.1/api.html), através da inserção de localização, data, porcentagem de nuvem dentre outras.Ademais, posteriormente após o fim da busca é agrupados todos os ids das imagens em um arquivo de texto, ao qual são utlizados para baixar as imagens no código download_sentinelsat.py.
 
 ```
+
 
 ```
 
@@ -50,6 +51,7 @@ O código pesquisa_sentinelsat.py busca as imagens pelos pelos parametros requer
 ```
 
 ````
+### Example
 ## Roadmap
 
 
@@ -70,16 +72,8 @@ O código pesquisa_sentinelsat.py busca as imagens pelos pelos parametros requer
 ## Test
 
 
-## Documentation
-
-
-
 
 ## Contributors
-
-
-## Contributing
-
 
 
 ## Project status
