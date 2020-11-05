@@ -35,6 +35,11 @@ A equipe Labgis agradece a contribuição de qualquer pessoa, desde que seja par
 
 ## Usage
 
+O código pesquisa_lan.py realiza a pesquisa das imagens pelos parametros requeridos pela [USGS](https://m2m.cr.usgs.gov/api/docs/reference/#scene-search), por meio da inserção opcional de localização, data, porcentagem de nuvem dentre outras. Ademais, posteriormente após o fim da busca é agrupados todos os ids das imagens em um arquivo de texto, ao qual são utlizados para baixar as imagens no código download_landsat.py
+
+O código pesquisa_sentinelsat.py busca as imagens pelos pelos parametros requeridos pela [ESA](https://sentinelsat.readthedocs.io/en/v0.9.1/api.html), através da inserção de localização, data, porcentagem de nuvem dentre outras.Ademais, posteriormente após o fim da busca é agrupados todos os ids das imagens em um arquivo de texto, ao qual são utlizados para baixar as imagens no código download_sentinelsat.py.
+
+
 ```
 
 ```
