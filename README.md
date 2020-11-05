@@ -2,9 +2,8 @@
 
   
 ## Description
-Código desenvlvido em python afim de maximizar e 
-opensource para auxiliar a apropriação (leia-se, download) das
-imagens de satélite.
+Código desenvolvido em python maximiza com praticidade as pesquisas e downloads das imagens de satélite.
+
 ## Visuals
 
 
