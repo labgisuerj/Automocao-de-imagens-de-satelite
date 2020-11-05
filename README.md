@@ -1,0 +1,1 @@
+# Automocao-de-imagens-de-satelite
