@@ -16,7 +16,10 @@ O código possui os recursos listados abaixo.
 
 ## Requirements
 
-Necessário a  instalação da [api do Sentinelsat](https://livingatlas2.arcgis.com/landsatexplorer/).
+Referente ao código pesquisa_lan.py, necessita dos itens abaixo. 
+Necessário a  instalação da [api do Sentinelsat](https://livingatlas2.arcgis.com/landsatexplorer/)
+Utiliza os pacotes de python [Urllib](https://pypi.org/project/urllib3/),[json](https://pypi.org/project/jsonlib/),[threaded](https://pypi.org/project/threaded/),[csv](https://pypi.org/project/csvfile/),[requets](https://pypi.org/project/requests/),[time](https://pypi.org/project/times/),[path](https://pypi.org/project/times/).
+
 
 ```
 
