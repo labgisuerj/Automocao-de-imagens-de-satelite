@@ -19,9 +19,10 @@ O código possui os recursos listados abaixo.
 
 ## Requirements
 
-Referente ao código pesquisa_lan.py, necessita dos itens abaixo. 
+Referente aos códigos, necessita dos itens abaixo. 
 Necessário a  instalação da [API Python Sentinelsat](https://pypi.org/project/sentinelsat/)
 Utiliza os pacotes de python  [Urllib](https://pypi.org/project/urllib3/),[json](https://pypi.org/project/jsonlib/),[threaded](https://pypi.org/project/threaded/),[csv](https://pypi.org/project/csvfile/),[requets](https://pypi.org/project/requests/),[time](https://pypi.org/project/times/),[path](https://pypi.org/project/times/).
+
 
 ## Contributing
 A equipe Labgis agradece a contribuição de qualquer pessoa, desde que seja para aprimorar.
