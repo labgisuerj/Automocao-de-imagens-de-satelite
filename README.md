@@ -8,11 +8,11 @@ Ferramenta opensource potencializa de maneira prática as metodologias para gera
 
 O código possui os recursos listados abaixo.
 
-*Pesquisa das imagens de satélite no catálogo da Espacial Européria (ESA) e do Serviço Geológico Americano (USGS).
+* Pesquisa das imagens de satélite no catálogo da Espacial Européria (ESA) e do Serviço Geológico Americano (USGS).
 
-*Geração de um arquivo de texto com os ids das imagens buscadas.
+* Geração de um arquivo de texto com os ids das imagens buscadas.
 
-*Download automático a partir do arquivo de texto, ao qual contém os ids necessários para download.
+* Download automático a partir do arquivo de texto, ao qual contém os ids necessários para download.
 
 
 
