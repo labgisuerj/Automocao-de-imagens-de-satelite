@@ -16,8 +16,10 @@ O código possui os recursos listados abaixo.
 * Geração de um arquivo de texto com os ids das imagens buscadas.
 
 * Download automático a partir do arquivo de texto, ao qual contém os ids necessários para download.
-```
 
+*Gera um arquivo de texto com os logins do usuário
+
+```
 
 
 ## Requirements
@@ -39,15 +41,22 @@ A equipe Labgis agradece a contribuição de qualquer pessoa, desde que seja par
 
 ## Usage e Documentation
 ```
-O código pesquisa_landsat_.py realiza a pesquisa das imagens pelos parâmetros requeridos pela  doumentação da [USGS](https://m2m.cr.usgs.gov/api/docs/reference/#scene-search), 
+O código pesquisa_landsat_.py realiza a pesquisa das imagens pelos parâmetros requeridos pela  doumentação 
+da [USGS](https://m2m.cr.usgs.gov/api/docs/reference/#scene-search), 
 por meio da inserção opcional de localização, data, porcentagem de nuvem dentre outras. 
-Ademais, posteriormente após o fim da busca é agrupados todos os ids(leia-se nomes delas) das imagens em um arquivo de texto, ao qual são utlizados para baixar as imagens no código download_landsat.py
+Ademais, posteriormente após o fim da busca é agrupados todos os ids(leia-se nomes delas) das imagens em um arquivo 
+de texto, ao qual são utlizados para baixar as imagens no código download_landsat.py
  
-Conjuntamente é carregado o acesso_py.py, ao qual realiza a interação com o usuário no quesito login, em que são pedidos o login e a senha para acesso ao site. Posteriormente esse login é salvo em arquivo de texto na máquina do usuário, criptografado, garantido a segurança das credenciais e o sigilo. Essas informações são utilizadas no código de pesquisa principal.
+Conjuntamente é carregado o acesso_py.py, ao qual realiza a interação com o usuário no quesito login, 
+em que são pedidos o login e a senha para acesso ao site. Posteriormente esse login é salvo em arquivo de texto
+na máquina do usuário, criptografado, garantido a segurança das credenciais e o sigilo. Essas informações são utilizadas 
+no código de pesquisa principal.
 
-O código pesquisa_sentinelsat.py busca as imagens pelos pelos parametros requeridos pela doumentação da [ESA](https://sentinelsat.readthedocs.io/en/v0.9.1/api.html),
+O código pesquisa_sentinelsat.py busca as imagens pelos pelos parametros requeridos pela doumentação da 
+[ESA](https://sentinelsat.readthedocs.io/en/v0.9.1/api.html),
 através da inserção de localização, data, porcentagem de nuvem dentre outras.
-Ademais, posteriormente após o fim da busca é agrupados todos os ids das imagens em um arquivo de texto, ao qual são utlizados para baixar as imagens no código download_sentinelsat.py.
+Ademais, posteriormente após o fim da busca é agrupados todos os ids das imagens em um arquivo de texto,
+ao qual são utlizados para baixar as imagens no código download_sentinelsat.py.
 ```
 ### Example
 #### Pesquisa geral de solicitações de amostra
